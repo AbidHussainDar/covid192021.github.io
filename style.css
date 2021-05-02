@@ -1,0 +1,17 @@
+header .image {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 90vh;
+    border-radius: 7px;
+}
+
+header .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
